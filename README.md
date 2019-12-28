@@ -2,7 +2,8 @@
 Test project in golang
 
 
-Alien invasion ============== 
+Alien invasion ============== Scenario
+
 Mad aliens are about to invade the earth and you are tasked with simulating the invasion. 
 You are given a map containing the names of cities in the non-existent world of X. The map is in a file, with one city per line. The city name is first, followed by 1-4 directions (north, south, east, or west). Each one represents a road to another city that lies in that direction. 
 For example: 
@@ -18,3 +19,17 @@ You should create a program that reads in the world map, creates N aliens, and u
 Bar has been destroyed by alien 10 and alien 34! 
 (If you want to give them names, you may, but it is not required.) Once the program has finished, it should print out whatever is left of the world in the same format as the input file. 
 Feel free to make assumptions (for example, that the city names will never contain numeric characters), but please add comments or assertions describing the assumptions you are making. 
+
+
+# Steps
+`Map` file provides the list of the cities.
+
+Run `go run main.go [insert number of aliens here, e.g. 10]`. 
+
+However, we assume  `numAliens` cannot be more then 2x the number of cities.
+
+`Result`  file provides the result of the simulationin.
+
+Tests are covered in `main_test.go` file
+
+
