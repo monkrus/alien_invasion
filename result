@@ -1,2 +1,3 @@
-Boston 
-Miami 
+Phoenix north=LosAngeles south=SanDiego
+Boston south=Phoenix north=Las Vegas
+SanDiego north=Phoenix

@@ -1,7 +1,7 @@
-NewYork north=Boston south=Miami east=Stamford
-Boston south=NewYork north=Portland
-Miami north=NewYork west=Houston
-Portland south=Boston
-Stamford west=NewYork
-Houston east=Miami north=TwinPeaks
-TwinPeaks south=Houston
+Phoenix north=LosAngeles south=SanDiego east=Scottsdale
+Boston south=Phoenix north=Las Vegas
+SanDiego north=Phoenix west=Kingsman
+LasVegas south=LosAngeles
+Scottsdale west=Phoenix
+Kingsman east=SanDiego north=TwoRivers
+TwoRivers south=Kingsman

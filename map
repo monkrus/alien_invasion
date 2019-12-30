@@ -1,7 +1,0 @@
-Phoenix north=Los Angeles south=San Diego east=Scottsdale
-Boston south=Phoenix north=Las Vegas
-San Diego north=Phoenix west=Kingsman
-Las Vegas south=Los Angeles
-Scottsdale west=Phoenix
-Kingsman east=San Diego north=TwoRivers
-TwoRivers south=Kingsman
